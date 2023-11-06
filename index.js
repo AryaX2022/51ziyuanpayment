@@ -54,6 +54,7 @@ const alipaySdk = new AlipaySdk({
 const AlipayFormData = require('alipay-sdk/lib/form').default;
 
 app.get("/", async function(request, response) {
+    console.log("51ziyuan payment alive.");
     response.json("Live");
 });
 
