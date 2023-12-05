@@ -71,7 +71,7 @@ app.post('/userapplyvip', jsonParser, async function(request, response) {
         var mailOptions = {
             from: '6983299@qq.com',
             to: '6983299@qq.com',
-            subject: username + '提交申请，请审批',
+            subject: username + '来了来了，我来了',
             html: '控制台: http://...ziyuanmnguserapply'
         };
 
