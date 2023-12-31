@@ -32,10 +32,10 @@ app.use(cors());
 //     multipleStatements: true
 // });
 var con = mysql.createPool({
-    host: "68.183.191.223",
-    user: "pointed-brief-tif",
+    host: "2271.dnstoo.com",
+    user: "src_f",
     password: process.env.ZIYUAN_DB_PWD,
-    database: "pointed_brief_tif_db",
+    database: "src",
     multipleStatements: true
 });
 // con.connect(function(err) {
